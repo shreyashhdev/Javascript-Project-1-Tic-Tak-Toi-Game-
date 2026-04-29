@@ -1,6 +1,6 @@
 let boxes = document.querySelectorAll(".box");
-let reset_btn = document.querySelector("#reset_btn");
-let newGameBtn = document.querySelector("#new_btn");
+let reset_btn = document.querySelector("#reset-btn");
+let newGameBtn = document.querySelector("#new-btn");
 let msgContainer = document.querySelector(".msg-container");
 let msg = document.querySelector("#msg");
 
@@ -102,7 +102,6 @@ const showDraw = () => {
 
 boxes.forEach((box) => {
     box.addEventListener("click", () => {
-        // game logic
 
         checkWinner();
         checkDraw();

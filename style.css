@@ -38,7 +38,7 @@ body{
     background-color: lavender;
 }
 
-#reset_btn {
+#reset-btn {
     padding: 1rem;
     font-size: 1.25rem;
     background-color: black;
@@ -47,7 +47,7 @@ body{
     border: none;
 }
 
-#new_btn {
+#new-btn {
     padding: 1rem;
     font-size: 1rem;
     background-color: black;
